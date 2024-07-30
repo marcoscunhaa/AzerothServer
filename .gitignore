@@ -1,0 +1,35 @@
+# Ignorar arquivos e diretórios específicos do Visual Studio
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignorar arquivos temporários do sistema
+Thumbs.db
+ehthumbs.db
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos de saída do compilador
+Debug/
+Release/
+x64/
+x86/
+
+# Ignorar arquivos temporários criados pela IDE
+*.obj
+*.pch
+*.idb
+*.pdb
+*.ipch
+*.ncb
+
+# Ignorar arquivos de banco de dados e outros arquivos grandes
+*.db
+
+# Ignorar arquivos específicos de editor de texto (como o Visual Studio Code)
+*.code-workspace
